@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: 'Pixel';
+    font-family: Pixel;
     src: url('../fonts/Pixel.ttf');
 }
 
@@ -23,7 +23,6 @@
     position: absolute;
     width: 60px;
     left: calc(50% - 30px);
-    bottom: 50%;
 }
 
 .par-de-barreiras {
@@ -60,6 +59,7 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    font-family: 'Pixel';
+    font-family: Pixel;
     font-size: 70px;
+    z-index: 100;
 }
